@@ -1,0 +1,293 @@
+body{
+    font-family: 'Open Sans' , sans-serif ;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+*{
+    transition: all 0.3s ease;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 800;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+h3{
+    font-size: 21px;
+}
+
+h4{
+    font-size: 16px;
+}
+div, p, a, span, img, input, form, button{
+    box-sizing: border-box;
+}
+
+input, button:hover, button:active, button:focus{
+    outline: none !important;
+}
+
+button, input:hover, input:active, input:focus{
+    outline: none !important;
+}
+
+.red-font{
+    color: #f34646;
+}
+
+.d-flex{
+    display: flex;
+    -webkit-display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-start{
+    justify-content: flex-start;
+}
+
+.grey-font{
+    color: #b4b4b4;
+    margin-top: 18px;
+    margin-bottom: -10px;
+}
+
+.button{
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #f34646;
+    font-weight: 800;
+    display: block;
+    width: 273px;
+    text-decoration: none;
+    border: 1px solid #f34646;
+    border-radius: 4px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.button:hover {
+    background: #f34646;
+    color: #fff;
+}
+
+.button:active {
+    box-shadow: 0 0 20px rgba(0,0,0,0.3) inset;
+}
+
+.section-title{
+    font-size: 30px;
+}
+
+section{
+    padding: 55px 0;
+}
+/*----Шапка----*/
+
+.head{
+    margin-top: 39px;
+}
+
+.head__logo{
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-right: 121px;
+}
+
+.description{
+}
+
+.description__info{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 45px;
+}
+
+.head__mail{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.offer{
+    margin-top: 176px;
+}
+
+.offer_main{
+
+}
+
+.title{
+    margin: 0;
+}
+
+.title__left{
+    font-size: 93px;
+}
+.title__right{
+    font-size: 37px;
+    margin-left: 41px;
+}
+
+.title__right .grey-font{
+    display: block;
+}
+
+.offer__intro{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 35px;
+    width: 624px;
+    margin-top: 37px;
+    margin-bottom: 45px;
+}
+
+.header{
+    padding-bottom: 66px;
+}
+
+
+/*----Первая секция----*/
+.threads{
+    margin-top: 80px;
+}
+
+.threads__item{
+    width: 372px;
+}
+
+.threads__title{
+    letter-spacing: 4.2px;
+}
+
+.threads__text{
+    letter-spacing: 0.28px;
+}
+
+/*----Вторая секция----*/
+
+.list{
+    margin-top: 80px;
+}
+
+.list__img{
+    width: 492px;
+}
+
+.list__img img{
+    display: block;
+    margin: 22px auto 0;
+}
+
+.list__content{
+    margin-left: 40px;
+}
+
+.reason{
+    width: 512px;
+    position: relative;
+}
+
+.reason__index{
+    font-size: 47px;
+    font-weight: 800;
+    position: absolute;
+    left: -53px;
+    top: -22px;
+}
+
+.reason__title{
+    letter-spacing: 0.28px;
+}
+
+.reason__text{
+
+}
+
+/*----Третья секция----*/
+
+.about__reg{
+    font-weight: 800;
+    width: 542px;
+    line-height: 24px;
+}
+
+.info{
+    margin-top: 48px;
+}
+
+.info__item{
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.form{
+margin-top: 60px;
+}
+
+.form__input{
+    color: black;
+    border: 0;
+    border-bottom: 1px solid #adadad;
+    font-size: 15px;
+    margin-right: 29px;
+    width: 220px;
+    padding: 13px 0;
+    height: 50px;
+}
+
+input:focus{
+    border-bottom: 1px solid black;
+}
+
+.form__act{
+    border: 0;
+    background: none;
+    font-size: 15px;
+    margin-top: -12px;
+    cursor: pointer;
+}
+
+.form__act:hover{
+    border: 1px solid #f34646;
+}
+
+/*---- Футер----*/
+
+.footer{
+    margin: 100px 0;
+}
+
+.credits{
+
+}
+
+.credits > *{
+    font-size: 11px;
+    margin-right: 115px;
+    font-weight: 300;
+}
+
+.show-modal{
+    border-bottom: 1px dotted #d9d9d9;
+    cursor: pointer;
+}
